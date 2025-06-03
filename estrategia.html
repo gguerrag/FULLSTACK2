@@ -1,63 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-	<title>Tuturno.cl - Estrategia</title>
-</head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <title>Tuturno.cl - Estrategia </title>
+ </head>
 <body>
-<header>
-	
-	<nav class="roboto">
-		<h1><a href="index.html">Tuturno</a></h1>
-		<ul>
-			<li><a href="familiares.html">Familiares</a></li>
-			<li><a href="estrategia.html">Estrategia</a></li>
-			<li><a href="cartas.html">Cartas</a></li>
-			<li><a href="party.html">Party Games</a></li>
-		</ul>
-	</nav>
-</header>
-<main>
-    <section id="categorias">
-		<article class="juego roboto zoom">
-		    <img src="img/catan.jpg" alt="Catan">
-		    <h2>Catan</h2>
-		    <p>Uno es un juego de cartas de acción simple y rápido en el que los jugadores intentan deshacerse de todas sus cartas coincidiendo con la carta que está boca arriba en la pila de descarte </p>
-		    <p class="precio tachado">Valor anterior: $29.990</p>
-		    <p class="precio">Valor: $26.990</p>
-
-		</article>
-		<article class="juego roboto zoom">
-		    <img src="img/risk.jpg" alt="Catan">
-		    <h2>Risk</h2>
-		    <p>Un juego de guerra en el que los jugadores buscan conquistar el mundo, dirigiendo ejércitos y luchando por el control de territorios. La estrategia se centra en la planificación de las campañas militares, la anticipación de los movimientos del enemigo y la optimización de la distribución de fuerzas. </p>
-		    <p class="precio">Valor: $23.990</p>
-		  
-		</article>
-		<article class="juego roboto zoom">
-		    <img src="img/7wonder.jpg" alt="Catan">
-		    <h2>7 Wonders</h2>
-		    <p>Este juego te permite construir una civilización antigua, eligiendo tecnologías, recursos y construcciones. La estrategia se basa en la gestión de recursos, la elección de tecnologías adecuadas y la interacción con los otros jugadores, buscando el desarrollo de una civilización poderosa. </p>
-		    <p class="precio">Valor: $17.990</p>
-		
-		</article>
-		<article class="juego roboto zoom">
-		    <img src="img/mars.jpg" alt="Catan">
-		    <h2>Terraforming Mars</h2>
-		    <p>Los jugadores buscan transformar el planeta Marte en un entorno habitable, construyendo ciudades y gestionando recursos. La estrategia se enfoca en la selección de las mejores tecnologías y la planificación de la expansión de la propia colonia, buscando la creación de un ecosistema próspero. </p>
-		    <p class="precio">Valor: $21.990</p>
-	
-		</article>
-    </section>	
-</main>
+  <header>
+   <nav class="roboto navbar navbar-expand-lg navbar-dark bg-dark px-4">
+    <h1>
+     <a href="index.html">
+      Tuturno
+     </a>
+    </h1>
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+     <li class="nav-item">
+      <a class="nav-link" href="familiares.html">
+       Familiares
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="estrategia.html">
+       Estrategia
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="cartas.html">
+       Cartas
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="party.html">
+       Party Games
+      </a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="form.html">
+       Registro
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main class="container my-5">
+   <section class="row g-4" id="categorias">
+    <article class="juego roboto zoom col-12 col-md-6 col-lg-4 card p-3 h-100">
+     <img alt="Catan" class="card-img-top" src="img/catan.jpg"/>
+     <h2 class="card-title text-center mt-3">
+      Catan
+     </h2>
+     <p class="card-text">
+      Uno es un juego de cartas de acción simple y rápido en el que los jugadores intentan deshacerse de todas sus cartas coincidiendo con la carta que está boca arriba en la pila de descarte
+     </p>
+     <p class="card-text">
+      Valor anterior: $29.990
+     </p>
+     <p class="card-text">
+      Valor: $26.990
+     </p>
+    </article>
+    <article class="juego roboto zoom col-12 col-md-6 col-lg-4 card p-3 h-100">
+     <img alt="Catan" class="card-img-top" src="img/risk.jpg"/>
+     <h2 class="card-title text-center mt-3">
+      Risk
+     </h2>
+     <p class="card-text">
+      Un juego de guerra en el que los jugadores buscan conquistar el mundo, dirigiendo ejércitos y luchando por el control de territorios. La estrategia se centra en la planificación de las campañas militares, la anticipación de los movimientos del enemigo y la optimización de la distribución de fuerzas.
+     </p>
+     <p class="card-text">
+      Valor: $23.990
+     </p>
+    </article>
+    <article class="juego roboto zoom col-12 col-md-6 col-lg-4 card p-3 h-100">
+     <img alt="Catan" class="card-img-top" src="img/7wonder.jpg"/>
+     <h2 class="card-title text-center mt-3">
+      7 Wonders
+     </h2>
+     <p class="card-text">
+      Este juego te permite construir una civilización antigua, eligiendo tecnologías, recursos y construcciones. La estrategia se basa en la gestión de recursos, la elección de tecnologías adecuadas y la interacción con los otros jugadores, buscando el desarrollo de una civilización poderosa.
+     </p>
+     <p class="card-text">
+      Valor: $17.990
+     </p>
+    </article>
+    <article class="juego roboto zoom col-12 col-md-6 col-lg-4 card p-3 h-100">
+     <img alt="Catan" class="card-img-top" src="img/mars.jpg"/>
+     <h2 class="card-title text-center mt-3">
+      Terraforming Mars
+     </h2>
+     <p class="card-text">
+      Los jugadores buscan transformar el planeta Marte en un entorno habitable, construyendo ciudades y gestionando recursos. La estrategia se enfoca en la selección de las mejores tecnologías y la planificación de la expansión de la propia colonia, buscando la creación de un ecosistema próspero.
+     </p>
+     <p class="card-text">
+      Valor: $21.990
+     </p>
+    </article>
+   </section>
+  </main>
   <footer>
-    <p>&copy; 2025 Tuturno.cl - Todos los derechos reservados</p>
   </footer>
-	
-</body>
+ </body>
 </html>
